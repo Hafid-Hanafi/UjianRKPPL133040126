@@ -15,18 +15,18 @@ public class loggerfourj {
     
     final static Logger lgr = Logger.getLogger(loggerfourj.class);
     
-    private void log4j(String param){
-		lgr.debug("Ini adalah debug  : " + param);
-        lgr.fatal("Ini adalah fatal  : " + param);
-		lgr.warn("Ini adalah warn  : " + param);
-		lgr.error("Ini adalah error : " + param);
+    private void log4j(String log){
+		lgr.debug("Ini adalah debug  : " + log);
+        lgr.fatal("Ini adalah fatal  : " + log);
+		lgr.warn("Ini adalah warn  : " + log);
+		lgr.error("Ini adalah error : " + log);
  
 	}
 	
 	public static void main(String[] args) {
  
-		loggerfourj obj = new loggerfourj();
-		obj.log4j("Contoh Log4J");
+		loggerfourj logger4j = new loggerfourj();
+		logger4j.log4j("Contoh Log4J");
  
 	}
     
