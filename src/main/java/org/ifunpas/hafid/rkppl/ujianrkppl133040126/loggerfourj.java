@@ -16,10 +16,10 @@ public class loggerfourj {
     final static Logger lgr = Logger.getLogger(loggerfourj.class);
     
     private void log4j(String param){
-		lgr.info("Ini adalah : " + param);
-        lgr.fatal("Ini adalah  : " + param);
-		lgr.warn("Ini adalah  : " + param);
-		lgr.error("Ini adalah  : " + param);
+		lgr.debug("Ini adalah debug  : " + param);
+        lgr.fatal("Ini adalah fatal  : " + param);
+		lgr.warn("Ini adalah warn  : " + param);
+		lgr.error("Ini adalah error : " + param);
  
 	}
 	
